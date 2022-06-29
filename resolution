@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+	
+	int num, a, b, sm, quad;
+	num = 1000;
+	
+	do{
+	    a = num / 100;
+	    b = num % 100;
+	    sm = a + b;
+	    quad = sm * sm;
+	    if(quad == num);
+	    printf("%d + %d = %d * %d = %d\n", a, b, sm, sm, num);
+	    num++;
+	}
+	while(num <= 9999);
+}
